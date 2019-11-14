@@ -5,7 +5,7 @@ $(document).ready(function() {
         var target = $(this).attr('href');
         console.log("clicked # " + target);
         $('.workbox').hide();
-        $('.aboutWorks').hide();
+        $('#aboutWorks').hide();
         $(target).show();
     });
 

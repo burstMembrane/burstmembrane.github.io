@@ -14,7 +14,8 @@
             {% assign sorted = site.portfolio | sort:"year" | reverse %} {% for item in sorted %} <a class="anchorLink" href="#{{item.div-id}}">{{item.title}} </a> | {% endfor %}
 
         </div>
-        <div class="aboutWorks"> Here you can find some documentation for selected works and exhibitions. Click the links above to navigate. </div>
+        <div id="aboutWorks"> Here you can find some documentation for selected works and exhibitions. Click the links above to navigate. </div>
+
         {% for portfolio in site.portfolio %}
 
         <div class="workbox" id="{{portfolio.div-id}}">
