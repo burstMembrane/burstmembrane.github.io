@@ -13,7 +13,7 @@ description: Ongoing research project
 
 ## div id for anchoring css and hiding. 
 ## NOTE: you need to add this div-id to the style css file for hiding and showing of divs to work
-div-id: syntheticperception
+div-id: "syntheticperception"
 
 ## YEAR
 year: 2019
