@@ -1,0 +1,18 @@
+name: Liam Power Artist
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: Personal website for Liam Power
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Liam Power
+
+# Your email if you want it to be linked on the contact page
+author_email: liamfpower@gmail.com
+
+
+collections:
+  portfolio:
+    output: true
+    div-id: true
+    year: true
+

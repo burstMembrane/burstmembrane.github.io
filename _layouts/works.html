@@ -1,0 +1,43 @@
+<!DOCTYPE HTML> {% include head.html %}
+
+<body>
+
+    <div id="navbox"> {% include navbar.html %}</div>
+
+    <div class="headbox">
+        <div class="headertext">
+            <h1> WORKS</h1>
+        </div>
+
+        <div id="topnav">
+
+            {% assign sorted = site.portfolio | sort:"year" | reverse %} {% for item in sorted %} <a class="anchorLink" href="#{{item.div-id}}">{{item.title}} </a> | {% endfor %}
+
+        </div>
+        <div class="aboutWorks"> Here you can find some documentation for selected works and exhibitions. Click the links above to navigate. </div>
+        {% for portfolio in site.portfolio %}
+
+        <div class="workbox" id="{{portfolio.div-id}}">
+            <div class="textbox" markdown="1">
+                <h2>
+                    {{ portfolio.title }}
+                </h2>
+                {{portfolio.description}} <br><br> {{ portfolio.content}}
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

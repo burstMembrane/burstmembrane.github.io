@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://liamfpower.com/</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/index.html</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/works.html</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/news.html</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/about.html</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/contact.html</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/codesnippets/</loc>
+  <lastmod>2018-02-13T12:20:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liamfpower.com/assets/Artist%20CV%20-%20Liam%20Power.pdf</loc>
+  <lastmod>2018-02-14T00:32:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
