@@ -15,4 +15,9 @@ collections:
     output: true
     div-id: true
     year: true
-
+  writing:
+    output: true
+    subtitle: true
+    heading: true
+    div-id: true
+    chapternum: true
