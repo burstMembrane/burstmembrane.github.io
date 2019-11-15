@@ -32,3 +32,5 @@ For instance, "I" is more likely to follow "If" than "Banana", so "I" has a high
 This project continues with the creation of a neural network which uses a LSTM text generation algorithm in order to generate new text from a data-set. In this case, the data was trained on my recently completed Honours Thesis in an attempt to learn to synthesize institutionalized art jargon at record speeds. My research continues on this subject as newly acquired coding skills open new avenues for exploration.
 
 
+
+
