@@ -196,7 +196,8 @@ body {
     position: relative;
     text-size: normal;
     align-content: center;
-    color: #fff
+    color: #fff;
+    padding-bottom: 20px;
 }
 
 p {
@@ -303,9 +304,11 @@ input[type=submit]:hover {
 
 #canvas {
     position: fixed;
-    background-image: background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat-y;
     filter: grayscale(50%);
+    width: 100%;
+    height: 150%;
 }
 
 #topnav {
@@ -316,9 +319,28 @@ input[type=submit]:hover {
 #topnav a {
     color: #c7c7c7;
     display: inline-block;
-    line-height: 10px;
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.copyright {
+    position: fixed;
+    left: 0;
+    font-size: xx-small;
+    bottom: 0;
+    width: auto;
+    background-color: black;
+    opacity: 0.1;
+    color: rgb(150, 150, 150);
+}
+
+.copyright:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.copyright:p {
+    text-align: left !important;
 }
 
 #topnav a:hover {

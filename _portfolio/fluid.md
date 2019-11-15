@@ -16,8 +16,7 @@ Find the release on Bandcamp below.
 
 ___
 
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2342124976/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://liamfpower.bandcamp.com/album/fluid">Fluid by Liam Power</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2342124976/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://liamfpower.bandcamp.com/album/fluid">Fluid by Liam Power</a>
 
  <div id="fluidgallery" class="carousel slide" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">

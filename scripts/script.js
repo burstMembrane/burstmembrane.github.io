@@ -77,7 +77,7 @@ function randomExperiment() {
     }
     textSpace = document.getElementById('randomexperiment');
 
-    experiments = [" the boundaries and weaknesses of systems", "the intersections between data and perception", "coding algorithms to deidentify and abstract humans", "the use of neural networks ", "the cinematic tropes of digital culture"];
+    experiments = ["manipulating YouTube algorithms", "the intersections between data and perception", "coding algorithms to deidentify and abstract humans", "the use of neural networks ", "the cinematic tropes of digital culture"];
     var i = 0;
     typeWriter();
     var speed = 3000; /* The speed/duration of the effect in milliseconds */
