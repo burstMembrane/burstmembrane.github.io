@@ -21,4 +21,4 @@ heading: Contact
 </form>
 <p>
 
-    Send me an <a href="mailto:liamfpower@gmail.com"> email</a> or check out my <a href="https://www.instagram.com/verylowfrequencies/">instagram,</a> or <a href="https://soundcloud.com/verylowfrequency">soundcloud</a>. </p>
+Send me an <a href="mailto:liamfpower@gmail.com"> email</a> or check out my <a href="https://www.instagram.com/verylowfrequencies/">instagram,</a> or <a href="https://soundcloud.com/verylowfrequency">soundcloud</a>. </p>
