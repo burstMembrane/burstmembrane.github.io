@@ -24,21 +24,23 @@ year: 2019
 *Synthetic Perception* is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions. 
 
 ![Synthetic Perception](images/syntheticperception/sp1.jpg)
-
+### Synthetic Perception: installation view
+ 
 As a year long Honours project. I experimented with using computer vision algorithms to fragment and deidentify video data. 
 
 That data was then recomposed and output onto a display medium. These included computer screens, televisions and smartphones. 
 
 ![Synthetic Perception 2](images/syntheticperception/sp2.jpg)
-
+### Synthetic Perception: installation view
 
 I attempted to make an algorithm that was content agnostic and extendable. This means it would not (contrary to the implicit hierarchies of human perception) would not have an inherent bias toward a certain kind of content seen within data, treating it natively in its own way.
 
 ![Synthetic Perception 2](images/syntheticperception/sp3.jpg)
+### Synthetic Perception: Extraction Network App
 
 
 
-I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens and also to 
+I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens.
 
 For example, the algorithm would not *care* if it could not pick out any human readable details within an image. 
 
@@ -46,10 +48,21 @@ For example, the algorithm would not *care* if it could not pick out any human r
 I then used these algorithms to process videos shot in the style of YouTube Content Creators. 
 
 ![sm4](images/syntheticperception/sm4.png)
+### Video still: Synthetic Perception
+
+
 
 ___
 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/337671934?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+### Video: Networked Mediation (2019)
+
+
+<div class='embed-container'><iframe src="https://www.youtube.com/embed/0HfZjL95RfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+### Archived Livestream: 2018
 
 
 

@@ -7,6 +7,15 @@ $(document).ready(function() {
         $('.workbox').hide();
         $('#aboutWorks').hide();
         $(target).show();
+
+    });
+
+    var hash = window.location.hash;
+    var link = $('a');
+    $('.anchorLink').click(function(e) {
+        e.preventDefault();
+        hash = link.attr("href");
+        window.location = hash;
     });
 
 

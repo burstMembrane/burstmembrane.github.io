@@ -10,16 +10,16 @@
         </div>
 
         <div id="topnav">
-
-            {% assign sorted = site.portfolio | sort:"year" | reverse %} {% for item in sorted %} <a class="anchorLink" href="#{{item.div-id}}">{{item.title}} </a> | {% endfor %}
-
+            <ul>
+                {% assign sorted = site.portfolio | sort:"year" | reverse %} {% for item in sorted %}
+                <li> <a class="anchorLink" href="#{{item.div-id}}">{{item.title}} </a> </li> {% endfor %}
+            </ul>
         </div>
-        <div id="aboutWorks"> Here you can find some documentation for selected works and exhibitions. Click the links above to navigate. </div>
-
         {% for portfolio in site.portfolio %}
 
         <div class="workbox" id="{{portfolio.div-id}}">
             <div class="textbox" markdown="1">
+
                 <h2>
                     {{ portfolio.title }}
                 </h2>

@@ -12,3 +12,4 @@ ___
 
 <div class='embed-container'><iframe src='https://player.vimeo.com/video/223078450?title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
+### Video: Graceful Degradation

@@ -1,3 +1,28 @@
+// JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
+$(document).ready(function() {
+    $('.anchorLink').on('click', function() {
+
+        var target = $(this).attr('href');
+        console.log("clicked # " + target);
+        $('.workbox').hide();
+        $('#aboutWorks').hide();
+        $(target).show();
+
+    });
+
+    var hash = window.location.hash;
+    var link = $('a');
+    $('.anchorLink').click(function(e) {
+        e.preventDefault();
+        hash = link.attr("href");
+        window.location = hash;
+    });
+
+
+});
+
+
+
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d');
 
@@ -70,17 +95,3 @@ function randomExperiment() {
         }
     }
 }
-
-// JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
-$(document).ready(function() {
-    $('.anchorLink').on('click', function() {
-
-        var target = $(this).attr('href');
-        console.log("clicked # " + target);
-        $('.workbox').hide();
-        $('.aboutWorks').hide();
-        $(target).show();
-    });
-
-
-});

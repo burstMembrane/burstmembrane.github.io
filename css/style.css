@@ -4,28 +4,9 @@ h1 {
     text-transform: uppercase;
 }
 
-
-/* 
-/* 
-#thebridge,
-#fluid,
-#degradation,
-#compositions,
-#vlf,
-#delay,
-#downunder,
-#ldr,
-#statemachine,
-#extraction,
-#downunder,
-#syntheticperception {
-    padding: 1em;
-    display: none !important;
-} */
-
 .workbox {
-    padding: 1em;
     display: none;
+    padding-top: 1em;
 }
 
 html {
@@ -57,7 +38,8 @@ scrollbar {
 }
 
 .headertext {
-    padding: 10px 10px 10px 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-transform: uppercase;
     line-height: 1.2em;
 }
@@ -185,19 +167,57 @@ p {
     content: close-quote;
 }
 
+ul li {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0px 10px 0px 0px;
+    border: 0;
+}
+
+ul {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    list-style-type: none;
+}
+
+audio {
+    width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     position: relative;
+    text-size: normal;
     align-content: center;
     color: #fff
+}
+
+p {
+    font-size: 1.3em;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0px 0;
+}
+
+h3 {
+    margin: 0 auto;
+    padding: 0px 0px 10px 0px;
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80%;
 }
 
 iframe {

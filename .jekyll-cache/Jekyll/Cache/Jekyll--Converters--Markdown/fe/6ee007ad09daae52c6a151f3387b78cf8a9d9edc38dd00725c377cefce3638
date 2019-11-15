@@ -1,0 +1,32 @@
+I"R<p><em>Synthetic Perception</em> is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions.</p>
+
+<p><img src="images/syntheticperception/sp1.jpg" alt="Synthetic Perception" />
+<em>Synthetic Perception: installation view</em></p>
+
+<p>As a year long Honours project. I experimented with using computer vision algorithms to fragment and deidentify video data.</p>
+
+<p>That data was then recomposed and output onto a display medium. These included computer screens, televisions and smartphones.</p>
+
+<p><img src="images/syntheticperception/sp2.jpg" alt="Synthetic Perception 2" />
+<em>Synthetic Perception: installation view</em></p>
+
+<p>I attempted to make an algorithm that was content agnostic and extendable. This means it would not (contrary to the implicit hierarchies of human perception) would not have an inherent bias toward a certain kind of content seen within data, treating it natively in its own way.</p>
+
+<p><img src="images/syntheticperception/sp3.jpg" alt="Synthetic Perception 2" />
+<em>Synthetic Perception: Extraction Network App</em></p>
+
+<p>I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens.</p>
+
+<p>For example, the algorithm would not <em>care</em> if it could not pick out any human readable details within an image.</p>
+
+<p>I then used these algorithms to process videos shot in the style of YouTube Content Creators.</p>
+
+<p><img src="images/syntheticperception/sm4.png" alt="sm4" />
+<em>Video still: Synthetic Perception</em></p>
+
+<hr />
+
+<div class="embed-container"><iframe src="https://player.vimeo.com/video/337671934?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+<p><em>Video: Networked Mediation (2019)</em></p>
+
+:ET
