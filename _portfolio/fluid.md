@@ -6,11 +6,11 @@ div-id: fluid
 year: 2018
 ---
 
-**Fluid (2018)** is a set of perfomances and installations using ascultation as a source of sound.
+*Fluid (2018)* is a set of perfomances and installations using ascultation as a source of sound.
 
-Sounds are harvested through a series of hacked medical tools. The heart, lungs, blood and intestinal tract are captured. These are then reamplified, reinterpreted and deconstructed to create a simulation of being inside a body. However this body is not organic, it is a mixture of simulated and real sounds. 
+Sounds are harvested through hacked medical tools. The heart, lungs, blood and intestinal tract are captured. These are then reamplified, reinterpreted and deconstructed to create a sonic simulation of being inside a body. However this body is not organic, it is a hybrid of "virtual" and "real" sounds. 
 
-After initial experiments at Meta: Royal Parade in 2017, I took this project on stage at the Tote. Live mixing and improvising the harvested sounds in space. 
+After initial experiments at Meta: Royal Parade in 2017, I took this project on stage at the Tote, where I live mixed and improvised with the harvested sounds in space. 
 
 Find the release on Bandcamp below. 
 
