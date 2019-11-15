@@ -54,7 +54,7 @@ In Semester Two trials, I used three screens and a longer video presentation whi
 
 ![fig 19a](images/thesis/image034.jpg)
 ![fig 19b](images/thesis/image036.jpg)
-### ### Fig 19a-b: Video Stills  — Networked Mediation (2019)
+### Fig 19a-b: Video Stills  — Networked Mediation (2019)
  
 Though the audience encounters the video stream perhaps only briefly, my aim with both the image-data manipulation and the arrangement of the screen interface, is to trigger subtle subconscious associations with the themes and ideas behind the piece. To achieve this I placed the screen showing “raw” video uncomfortably close to the wall and on the floor, hoping that would restrict access to a longer viewing. However, it became apparent during critiques that the audience was not sure if they were meant to view the video presentation in full, or dip in and out of it like a stream. The progressive breakdown and recomposition of the image across the screens was aimed towards the creation of different levels of engagement with the content. In the critique sessions people commented on feeling “frustrated” with their inability to easily understand and process the more mediated content. Further, by placing the “raw” content screen close to the wall, I attempted to encourage an intimate but brief engagement with the “raw” video footage. The effect was to encourage audiences to view the three screens as a display system and to find the relationships between the images, rather than foregrounding the more human-readable and digestible content. 
 
