@@ -40,12 +40,12 @@ I attempted to make an algorithm that was content agnostic and extendable. This 
 
 
 
-I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens and to fracture the image further by removing any spatial context from the elements that the algoritm picked from the data. Essentially, the algorithm would not *care* if it could not pick out any comprehensible details within the data that it processes. 
+I settled upon a recomposing on a gri to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not *care* if it could not pick out any comprehensible details within the data that it processed.  
 
+The video data processed have varied throughout the course of this project. I have used both self-generated and online videos chosen by web scraping and data-extracting algorithms.  
 
-I then used these algorithms to process videos shot in the style of YouTube Content Creators as well as streamed online content chosen by web scraping and data-extracting algorithms.
+For a more comprehensive look at the research and practice which surrounds this project, feel free to read my Honours Thesis accessible [here](http://liamfpower.com/writing.html).
 
-For a more comprehensive look at the research and practice which surrounds this project, you can read my Honours Thesis [here].(www.liamfpower.com/writing.html)
 
 ![sm4](images/syntheticperception/sm4.png)
 ### Video still: Synthetic Perception
