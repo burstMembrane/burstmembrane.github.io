@@ -1,0 +1,91 @@
+I"'<p>As well as pursuing my arts practice I work as a freelance collaborator on a variety of arts-related projects.</p>
+
+<h2 id="some-projects-i-have-worked-on">Some projects I have worked on:</h2>
+
+<h4 id="oompah--artplay-2018">Oompah! @ Artplay (2018)</h4>
+
+<p><img src="images/reel/oompah.png" alt="Oompah!" /></p>
+
+<p>Project video: <a href="https://www.youtube.com/watch?v=sQamogAeVo0">https://www.youtube.com/watch?v=sQamogAeVo0</a></p>
+
+<p><strong>Role:</strong> Interaction design, programming, sound design, composition.</p>
+
+<h4 id="great-movements-of-feeling--gertrude-contemporary-2018">Great Movements of Feeling @ Gertrude Contemporary (2018)</h4>
+
+<iframe src="https://player.vimeo.com/video/288865428?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+
+<p>Work: Helen Grogan, <em>splitting open the surface on which it is inscribed</em>, 2018</p>
+
+<p><a href="https://www.greatmovementsoffeeling.com/exhibition">https://www.greatmovementsoffeeling.com/exhibition</a></p>
+
+<p><strong>Role:</strong> Sound Recordist, Mixer</p>
+
+<h4 id="anticipation-is-half-of-the-seduction--blindside-2018">Anticipation is half of the seduction @ Blindside (2018)</h4>
+
+<p>Exhibition Site:
+<a href="https://www.blindside.org.au/emerging-curator-mentorship-2018">https://www.blindside.org.au/emerging-curator-mentorship-2018</a></p>
+
+<p><strong>Role:</strong> Sound Recordist, Consultant, Mixer</p>
+
+<p><br /></p>
+
+<h2 id="primary-skill-sets">Primary Skill Sets</h2>
+
+<h4 id="location-sound-recordist">Location Sound Recordist:</h4>
+
+<p>With a  wide array of microphones and professional field recording equipment, I am able to capture and record the best possible audio needed for your project on site.</p>
+
+<h4 id="specialist-sound-recording">Specialist Sound Recording</h4>
+
+<p>For my own practice and in collaboration, I have a special interest in capturing hard to record or uncommon sound sources.</p>
+
+<p><img src="images/reel/heartbeat.jpg" alt="Recording heartbeats, 2018" /></p>
+<h3 id="recording-body-sounds">Recording body sounds</h3>
+
+<p>For previous clients I have recorded heart, lung and body sounds, electromagnetic resonances from computers and phones and internal sounds picked up through transduction.</p>
+
+<p><img src="image/../images/reel/contactmic.jpg" alt="Recording ice melting" /></p>
+<h3 id="recording-melting-ice">Recording melting ice</h3>
+
+<h4 id="interaction-design-and-programming">Interaction Design and Programming</h4>
+
+<p>With a particular knowledge of popular creative arts programming languages such as Max/MSP, Arduino, Processing and p5.js, I can construct a custom tailored interface for your next project.</p>
+
+<p><img src="images/reel/max.png" alt="Max/MSP" /></p>
+
+<p>For past clients I have built MIDI routers, interactive sound sculptures and custom hardware solutions to help them achieve their creative and practical needs.</p>
+
+<h4 id="live-sound">Live Sound</h4>
+
+<p>Coming from a background in Sound Art, my passion lies in creating a mood and atmosphere that helps foreground the source material in a physical space. This often means making decisions on site and in the planning process that will facilitate this.</p>
+
+<p><img src="images/reel/mixing.jpg" alt="Mixing" /></p>
+
+<p>I have mixed live gigs, experimental art performances and theatre productions.</p>
+
+<h4 id="mixing-and-sound-design">Mixing and Sound Design</h4>
+
+<p>As well as capturing sound on site, I can provide mixing facilities and post-video sync work for small scale projects or individual clients.</p>
+
+<h4 id="contact">Contact</h4>
+
+<p>If this I could help with any or all of these, please feel free to <a href="mailto:liamfpower@gmail.com">email</a>, or fill out the contact form below with your enquiry. Lets work something out!</p>
+
+<div class="contact">
+<form id="contactform" action="//formspree.io/liamfpower@gmail.com" method="POST">
+    <div>
+        <input class="mywidth" type="text" name="name" placeholder="Name" />
+    </div>
+    <div>
+        <input class="mywidth" type="email" name="_replyto" placeholder="Email" cols="2" />
+    </div>
+    <div>
+        <textarea id="messagebox" name="message" placeholder="Tell me about your project and how I can help."></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Send" />
+    </div>
+</form>
+<p>
+</p></div>
+:ET
