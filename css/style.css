@@ -439,6 +439,16 @@ input[type=submit]:hover {
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 
 @media (min-width: 220px) and (max-width: 600px) {
+    .copyright {
+        display: none;
+        left: 0;
+        font-size: xx-small;
+        bottom: 0;
+        width: auto;
+        background-color: black;
+        opacity: 0.1;
+        color: rgb(150, 150, 150);
+    }
     .navbar {
         position: absolute;
         visibility: visible;
