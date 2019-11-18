@@ -31,6 +31,7 @@ Exhibition Site:
 <https://www.blindside.org.au/emerging-curator-mentorship-2018>
 
 **Role:** Sound Recordist, Mixer
+
 <br>
 <br>
 

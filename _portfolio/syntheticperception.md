@@ -33,19 +33,19 @@ That data was then recomposed and output onto a display medium. These included c
 ![Synthetic Perception 2](images/syntheticperception/sp2.jpg)
 ### Synthetic Perception: installation view
 
-I attempted to make an algorithm that was content agnostic and extendable. This means it would not (contrary to the implicit hierarchies of human perception) would not have an inherent bias toward a certain kind of content seen within data, treating it natively in its own way.
+I attempted to make an algorithm that was content agnostic and extendable. This means it would not (contrary to the implicit hierarchies of human perception) have a bias toward a certain kind of content seen within data, treating it natively in its own way.
 
 ![Synthetic Perception 2](images/syntheticperception/sp3.jpg)
 ### Synthetic Perception: Extraction Network App
 
 
 
-I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens.
-
-For example, the algorithm would not *care* if it could not pick out any human readable details within an image. 
+I settled upon a recomposing on a grid, to echo both the aesthetic of a surveillance network played back on multiple screens and to fracture the image further by removing any spatial context from the elements that the algoritm picked from the data. Essentially, the algorithm would not *care* if it could not pick out any comprehensible details within the data that it processes. 
 
 
-I then used these algorithms to process videos shot in the style of YouTube Content Creators. 
+I then used these algorithms to process videos shot in the style of YouTube Content Creators as well as streamed online content chosen by web scraping and data-extracting algorithms.
+
+For a more comprehensive look at the research and practice which surrounds this project, you can read my Honours Thesis [here].(www.liamfpower.com/writing.html)
 
 ![sm4](images/syntheticperception/sm4.png)
 ### Video still: Synthetic Perception
