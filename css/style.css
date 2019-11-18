@@ -236,7 +236,7 @@ audio {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0 auto;
     position: relative;
     text-size: normal;
@@ -244,6 +244,18 @@ body {
     color: #fff;
     padding-bottom: 20px;
     overflow-anchor: [auto | none];
+}
+
+code {
+    color: rgb(220, 220, 220);
+    background: rgb(41, 41, 41);
+    /* declarations here */
+}
+
+pre code {
+    color: rgb(220, 220, 220);
+    background: rgb(41, 41, 41);
+    /* declarations here */
 }
 
 p {
