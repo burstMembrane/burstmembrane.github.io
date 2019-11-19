@@ -1,5 +1,7 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
+
+
     $('.anchorLink').on('click', function() {
 
         var target = $(this).attr('href');
