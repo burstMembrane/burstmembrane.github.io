@@ -40,7 +40,7 @@ I attempted to make an algorithm that was content agnostic and extendable. This 
 
 
 
-I settled upon a recomposing on a gri to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not *care* if it could not pick out any comprehensible details within the data that it processed.  
+I settled upon a recomposing on a grid to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not *care* if it could not pick out any comprehensible details within the data that it processed.  
 
 The video data processed have varied throughout the course of this project. I have used both self-generated and online videos chosen by web scraping and data-extracting algorithms.  
 

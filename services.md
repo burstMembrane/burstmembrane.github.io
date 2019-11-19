@@ -64,9 +64,9 @@ With a particular knowledge of popular creative arts programming languages such 
 
 For past clients I have built MIDI routers, interactive sound sculptures and custom hardware solutions to help them achieve their creative and practical needs.  
 
-#### Live Sound 
+#### Live Sound
 
-Coming from a background in Sound Art, my passion lies in creating a mood and atmosphere that helps foreground the source material in a physical space. This often means making decisions on site and in the planning process that will facilitate this. 
+Coming from a background in Sound Art, my passion lies in creating a mood and atmosphere that helps foreground the source material in a physical space. This often means making decisions on site and in the planning process that will facilitate this.
 
 ![Mixing](images/reel/mixing.jpg)
 
@@ -79,11 +79,11 @@ As well as capturing sound on site, I can provide mixing facilities and post-vid
 
 #### Contact
 
-If this I could help with any or all of these, please feel free to [email](mailto:liamfpower@gmail.com), or fill out the contact form below with your enquiry. Lets work something out!
+If I could help with any or all of these, please feel free to [email](mailto:liamfpower@gmail.com), or fill out the contact form below with your enquiry. Lets work something out!
 
 
 <div class="contact">
-<form id="contactform" action="//formspree.io/liamfpower@gmail.com" method="POST">
+<form id="contactform" action="https://formspree.io/xyyyogaj" method="POST">
     <div>
         <input class="mywidth" type="text" name="name" placeholder="Name">
     </div>

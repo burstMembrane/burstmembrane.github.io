@@ -74,7 +74,7 @@ function noise(ctx) {
         i = 0;
 
     for (; i < len; i++)
-        if (Math.random() < 0.96) buffer32[i] = 0xff000000;
+        if (Math.random() < 0.99) buffer32[i] = 0xff000000;
 
     ctx.putImageData(idata, 0, 0);
 
@@ -112,7 +112,7 @@ function randomExperiment() {
     }
     textSpace = document.getElementById('randomexperiment');
 
-    experiments = ["manipulating YouTube algorithms", "the intersections between data and perception", "coding algorithms to deidentify and abstract humans", "the use of neural networks ", "the cinematic tropes of digital culture"];
+    experiments = ["manipulating YouTube algorithms", "the intersections between data and perception", "coding algorithms to deidentify and abstract humans", "the use of neural networks", "the cinematic tropes of digital culture", "analyzing the Spectacle in modern life", "creative web application programming", ];
     var i = 0;
     typeWriter();
     var speed = 3000; /* The speed/duration of the effect in milliseconds */

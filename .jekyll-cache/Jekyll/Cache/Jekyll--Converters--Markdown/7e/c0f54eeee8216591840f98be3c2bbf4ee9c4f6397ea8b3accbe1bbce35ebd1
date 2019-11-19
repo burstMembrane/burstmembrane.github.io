@@ -1,4 +1,4 @@
-I"á<p>As well as pursuing my arts practice I work as a freelance collaborator on a variety of arts-related projects.</p>
+I"Å<p>As well as pursuing my arts practice I work as a freelance collaborator on a variety of arts-related projects.</p>
 
 <h2 id="some-projects-i-have-worked-on">Some projects I have worked on:</h2>
 
@@ -73,7 +73,7 @@
 <p>If this I could help with any or all of these, please feel free to <a href="mailto:liamfpower@gmail.com">email</a>, or fill out the contact form below with your enquiry. Lets work something out!</p>
 
 <div class="contact">
-<form id="contactform" action="//formspree.io/liamfpower@gmail.com" method="POST">
+<form id="contactform" action="https://formspree.io/xyyyogaj" method="POST">
     <div>
         <input class="mywidth" type="text" name="name" placeholder="Name" />
     </div>

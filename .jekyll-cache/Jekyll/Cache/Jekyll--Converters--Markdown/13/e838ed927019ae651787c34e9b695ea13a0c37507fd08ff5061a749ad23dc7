@@ -1,4 +1,4 @@
-I"Y
+I"Z
 <p><em>Synthetic Perception</em> is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions.</p>
 
 <p><img src="images/syntheticperception/sp1.jpg" alt="Synthetic Perception" /></p>
@@ -16,7 +16,7 @@
 <p><img src="images/syntheticperception/sp3.jpg" alt="Synthetic Perception 2" /></p>
 <h3 id="synthetic-perception-extraction-network-app">Synthetic Perception: Extraction Network App</h3>
 
-<p>I settled upon a recomposing on a gri to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not <em>care</em> if it could not pick out any comprehensible details within the data that it processed.</p>
+<p>I settled upon a recomposing on a grid to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not <em>care</em> if it could not pick out any comprehensible details within the data that it processed.</p>
 
 <p>The video data processed have varied throughout the course of this project. I have used both self-generated and online videos chosen by web scraping and data-extracting algorithms.</p>
 
