@@ -365,6 +365,9 @@ input[type=submit]:hover {
 }
 
 #canvas {
+    transform: scale(1.03);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
     position: fixed;
     background-size: cover;
     background-repeat: repeat-y;
