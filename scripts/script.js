@@ -1,6 +1,11 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
 
+    var hash = window.location.hash;
+    console.log("loaded hash" + hash);
+    $('.workbox').hide();
+    $('#aboutWorks').hide();
+    $(hash).show();
 
     $('.anchorLink').on('click', function() {
 
@@ -47,7 +52,7 @@ $(document).ready(function() {
 
 
 
-    // var hash = window.location.hash;
+
     // var link = $('a');
     // $('.anchorLink').click(function(e) {
     //     e.preventDefault();
@@ -58,8 +63,37 @@ $(document).ready(function() {
 
 });
 
+'use strict';
 
+// requestAnimationFrame polyfill by Erik Möller.
+// Fixes from Paul Irish, Tino Zijdel, Andrew Mao, Klemen Slavic, Darius Bacon and Joan Alba Maldonado.
+// Adapted from https://gist.github.com/paulirish/1579671 which derived from
+// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+// Added high resolution timing. This window.performance.now() polyfill can be used: https://gist.github.com/jalbam/cc805ac3cfe14004ecdf323159ecf40e
+// MIT license
+// Gist: https://gist.github.com/jalbam/5fe05443270fa6d8136238ec72accbc0
+(function() {
+    var vendors = ['webkit', 'moz', 'ms', 'o'],
+        vp = null;
+    for (var x = 0; x < vendors.length && !window.requestAnimationFrame && !window.cancelAnimationFrame; x++) {
+        vp = vendors[x];
+        window.requestAnimationFrame = window.requestAnimationFrame || window[vp + 'RequestAnimationFrame'];
+        window.cancelAnimationFrame = window.cancelAnimationFrame || window[vp + 'CancelAnimationFrame'] || window[vp + 'CancelRequestAnimationFrame'];
+    }
+    if (/iP(ad|hone|od).*OS 6/.test(window.navigator.userAgent) || !window.requestAnimationFrame || !window.cancelAnimationFrame) //iOS6 is buggy.
+    {
+        var lastTime = 0;
+        window.requestAnimationFrame = function(callback, element) {
+            var now = window.performance.now();
+            var nextTime = Math.max(lastTime + 16, now); //First time will execute it immediately but barely noticeable and performance is gained.
+            return setTimeout(function() { callback(lastTime = nextTime); }, nextTime - now);
+        };
+        window.cancelAnimationFrame = clearTimeout;
+    }
+}());
 
+// Background Noise
 var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d');
 
@@ -76,7 +110,7 @@ function noise(ctx) {
         i = 0;
 
     for (; i < len; i++)
-        if (Math.random() < 0.93) buffer32[i] = 0xff000000;
+        if (Math.random() < 0.91) buffer32[i] = 0xff000000;
 
 
     ctx.putImageData(idata, 0, 0);
@@ -93,9 +127,14 @@ function resize() {
 resize();
 window.onresize = resize;
 
+const framesPerSecond = 24;
 (function loop() {
+    setTimeout(function() {
+        toggle = !toggle;
 
-    toggle = !toggle;
+
+    }, 1000 / framesPerSecond);
+
     if (toggle) {
         requestAnimationFrame(loop);
         return;
