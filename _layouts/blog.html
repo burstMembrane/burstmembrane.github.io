@@ -1,0 +1,42 @@
+<!DOCTYPE HTML> {% include head.html %}
+
+<body>
+
+    <div id="navbox"> {% include navbar.html %}</div>
+
+    <div class="headbox">
+        <div class="headertext">
+            <h1> BLOG</h1>
+        </div>
+
+        <div id="topnav">
+            <ul>
+                {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+        {% for post in site.posts %}
+
+
+        <div class="textbox" markdown="1">
+
+            <h2>
+                {{ post.title }}
+            </h2>
+            {{post.description}} <br><br> {{ post.content}}
+        </div>
+    </div>
+    {% endfor %}
+
+    </div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
