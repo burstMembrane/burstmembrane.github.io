@@ -1,0 +1,7 @@
+I"<<p>Graceful Degradation is a engineering term whereby a system is designed to retain its core functions even when degraded or partially destroyed. Video and audio is transcoded 1000 times to create a slow shift to a new visual and aural identity.</p>
+
+<hr />
+<div class="video-container"><iframe width="640" height="360" src="https://player.vimeo.com/video/223078450?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+
+<h3 id="video-graceful-degradation">Video: Graceful Degradation</h3>
+:ET

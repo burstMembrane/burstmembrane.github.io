@@ -14,12 +14,11 @@ year: 2018
 
 At the beginning of 2018 I downloaded all of my Facebook data. A decades worth of messages, check ins, statuses, photos, videos and assorted ephemera were all bundled and emailed to me as a huge 5gb document.
 
-Raking through this digital
-archive of my online self, I began wondering what could be pieced together by the analysis and re-purposing of this data. Could I construct a believable simulation of myself, or at the very least a machine which could take this input, process it in a basic simulation of a cognitive system, and output it to create something new?
+Raking through this digital archive of my online self, I began wondering what could be pieced together by the analysis and re-purposing of this data. Could I construct a believable simulation of myself, or at the very least a machine which could take this input, process it in a basic simulation of a cognitive system, and output it to create something new?
 
 Following this prompt I have refined a number of outcomes which reflect on the contrasts and similarities between the simulated and "real" brain.
 
-Taking the form of online content, interactive installation and sound composition. State machine is an ongoing project in which I attempt to see what can be recreated from all of this data.
+Taking the form of online content, interactive installation and sound composition, State Machine is an ongoing project in which I attempt to see what can be recreated from all of this data.
 
 ![statemachine 1](images/statemachine/sm1.png)
 ### Screenshot: State Machine Website

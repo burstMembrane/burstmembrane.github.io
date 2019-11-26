@@ -9,17 +9,16 @@ As well as pursuing my arts practice I work as a freelance collaborator on a var
 ## Some projects I have worked on:
 
 #### Oompah! @ Artplay (2018)
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sQamogAeVo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+
+{% youtube sQamogAeVo0 %}
+
 
 **Role:** Interaction design, programming, sound design, composition. 
 
 #### Great Movements of Feeling @ Gertrude Contemporary (2018)
 
-<div class="video-container">
-<iframe src="https://player.vimeo.com/video/288865428?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
+{% vimeo 288865428 %}
+
 
 Work: Helen Grogan, *splitting open the surface on which it is inscribed*, 2018
 
@@ -79,7 +78,7 @@ As well as capturing sound on site, I can provide mixing facilities and post-vid
 
 #### Contact
 
-If I could help with any or all of these, please feel free to [email](mailto:liamfpower@gmail.com), or fill out the contact form below with your enquiry. Lets work something out!
+If I could help with any or all of these, please feel free to [email](mailto:liamfpower@gmail.com), or fill out the contact form below with your enquiry.
 
 
 <div class="contact">

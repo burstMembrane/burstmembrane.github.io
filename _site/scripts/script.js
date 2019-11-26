@@ -98,7 +98,7 @@ var canvas = document.getElementById('canvas'),
     ctx = canvas.getContext('2d');
 
 
-canvas.width = canvas.height = 500;
+canvas.width = canvas.height = 800;
 
 function noise(ctx) {
 
