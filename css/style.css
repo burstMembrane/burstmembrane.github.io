@@ -63,6 +63,12 @@ a:hover {
     overflow: hidden;
 }
 
+.tagbox {
+    font-size: small;
+    color: #626262;
+    display: inline;
+}
+
 .video-container iframe,
 .video-container object,
 .video-container embed {

@@ -5,21 +5,23 @@
     <a class="navbar-brand" href="#">Liam Power</a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li><a class="nav-link" href="./index.html"> Home</a></li>
+            <li><a class="nav-link" href={{ "index.html" | relative_url}}> Home</a></li>
             <li>
-                <a class="nav-link" href="./works.html"> Works</a>
+                <a class="nav-link" href{{ "works.html" | relative_url}}> Works</a>
             </li>
             <li>
-                <a class="nav-link" href="./writing.html"> Writing</a>
+                <a class="nav-link" href={{ "writing.html" | relative_url}}> Writing</a>
 
             </li>
             <li>
-                <a class="nav-link" href="./services.html"> Services</a>
+                <a class="nav-link" href={{ "services.html" | relative_url}}> Services</a>
             </li>
 
-
             <li>
-                <a class="nav-link" href="./contact.html">Contact</a>
+                <!-- <a class="nav-link" href={{ "blog.html" | relative_url}}>Blog</a> -->
+            </li>
+            <li>
+                <a class="nav-link" href={{ "contact.html" | relative_url}}>Contact</a>
             </li>
             <li>
                 <a href="https://vimeo.com/liamfpower" target="_blank">
@@ -41,15 +43,16 @@
 </nav>
 
 <div class="sidebar">
-    <div id="navheading"><a href="./index.html">LIAM POWER</a></div>
-    <a class="inactive" href="./index.html"> Home</a>
-    <a class="inactive" href="./works.html"> Works</a>
-    <a class="inactive" href="./writing.html"> Writing</a>
-    <a class="inactive" href="./services.html"> Services</a>
+    <div id="navheading"><a href={{ "index.html" | relative_url}}>LIAM POWER</a></div>
+    <a class="inactive" href={{ "index.html" | relative_url}}> Home</a>
+    <a class="inactive" href={{ "works.html" | relative_url }}> Works</a>
+    <a class="inactive" href={{ "writing.html" | relative_url}}> Writing</a>
+    <a class="inactive" href={{ "services.html" | relative_url}}> Services</a>
+    <!-- <a class="inactive" href={{ "blog.html" | relative_url}}> Blog</a> -->
 
 
 
-    <a class="inactive" href="./contact.html">Contact</a>
+    <a class="inactive" href={{ "contact.html" | relative_url}}>Contact</a>
     <a id="socials" href="https://vimeo.com/liamfpower" target="_blank">
         <i class="fab fa-vimeo" aria-hidden="true"></i> Video
     </a>
