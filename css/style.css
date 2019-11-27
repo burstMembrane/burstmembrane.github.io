@@ -4,11 +4,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.workbox {
-    display: none;
-    padding-top: 1em;
-}
-
 html {
     z-index: -999999;
     width: 100%;
