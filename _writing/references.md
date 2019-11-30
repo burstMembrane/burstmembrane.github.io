@@ -1,6 +1,6 @@
 ---
 layout: writing
-title: REFERENCES AND ARTWORKS
+title: REFERENCES 
 div-id: references
 year: 2019
 chapternum: 8

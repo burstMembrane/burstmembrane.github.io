@@ -1,10 +1,13 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
+
+
+
     // Get the modal
     var modal = document.getElementById('myModal');
 
     $(".headbox").scroll(function() {
-        console.log($(".headbox").scrollTop());
+
 
         var scroll = $(".headbox").scrollTop();
 
@@ -18,9 +21,15 @@ $(document).ready(function() {
             $('#navBox').slideDown();
             $('.headbox').css("top", "70px");
         }
+        if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+            console.log("hit bottom");
+        }
+
+
+
 
     });
-    $("img").wrap('<div class="wrapper"></div>');
+
 
     var hash = window.location.hash;
     console.log("loaded hash" + hash);

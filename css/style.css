@@ -217,6 +217,7 @@ p {
 }
 
 ul li {
+    display: block;
     position: relative;
     width: auto;
     margin: 0;
@@ -228,9 +229,19 @@ ul {
     position: relative;
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: disc;
     border: 0;
     list-style-type: none;
+}
+
+.anchorLink {
+    text-decoration: none !important;
+}
+
+.anchorLink:hover {
+    background: whitesmoke !important;
+    color: #151515 !important;
+    text-decoration: none !important;
 }
 
 audio {
@@ -384,7 +395,6 @@ input[type=submit]:hover {
 }
 
 #topnav {
-    display: grid;
     text-align: left;
     font-size: 1em;
     margin-bottom: 1rem;
@@ -427,8 +437,8 @@ input[type=submit]:hover {
 }
 
 #topnav a {
+    display: block;
     color: #c7c7c7;
-    display: inline-block;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -587,6 +597,14 @@ input[type=submit]:hover {
         font-size: 2em;
     }
     #topnav {
+        display: inline;
+        font-size: 1em;
+        line-height: 2em;
+    }
+    #topnav:active {
+        color: white;
+        background: black;
+        display: block;
         font-size: 1em;
         line-height: 2em;
     }
