@@ -3,6 +3,7 @@ layout: works
 title: "DOWN UNDER (2017)"
 description: "19.8.17 Exhibited @ New Music Day, Yongin Poeun Art Gallery, SK."
 div-id: "downunder"
+thumbnailpath: "images/downunder.jpg"
 year: 2017
 ---
 

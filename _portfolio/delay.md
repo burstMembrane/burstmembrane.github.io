@@ -3,6 +3,7 @@ layout: works
 title: "DELAYED COMMUNICATION (2018)"
 description: "Installed @ Kings ARI 09.02.18"
 div-id: "delay"
+thumbnailpath: "images/delay3.jpg"
 year: 2018
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: works
-title: Fluid (2018)
+title: FLUID (2018)
 description: "Performance/Installation @ Meta: Royal Parade 29.19.17"
 div-id: fluid
+thumbnailpath: "images/fluid.jpg"
 year: 2018
 ---
 

@@ -11,8 +11,11 @@
 
         <div id="topnav">
             <ul>
+
                 {% assign sorted = site.portfolio | sort:"year" | reverse %} {% for item in sorted %}
-                <li> <a class="anchorLink" href="#{{item.div-id}}">{{item.title}} </a> </li> {% endfor %}
+
+                <a class="anchorLink" href="#{{item.div-id}}">  {{item.title}} </a> {% endfor %}
+
             </ul>
         </div>
         {% for portfolio in site.portfolio %}

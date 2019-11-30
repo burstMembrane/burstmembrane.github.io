@@ -3,14 +3,15 @@ layout: works
 title: "STATE MACHINE (2018-)"
 description: "Installed online && ongoing research"
 div-id: "statemachine"
+thumbnailpath: "images/statemachine/sm3.png"
 year: 2018
 
 ---
 
-*State Machine* is a multidisciplinary exploration into artificial simulation, memory and perception. It contrasts the passivity of the machine with the sentimentality of the human experience.
-
 ![statemachine 1](images/statemachine/sm3.png)
 ### State Machine: Terminal
+
+*State Machine* is a multidisciplinary exploration into artificial simulation, memory and perception. It contrasts the passivity of the machine with the sentimentality of the human experience.
 
 At the beginning of 2018 I downloaded all of my Facebook data. A decades worth of messages, check ins, statuses, photos, videos and assorted ephemera were all bundled and emailed to me as a huge 5gb document.
 

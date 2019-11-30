@@ -109,6 +109,7 @@ p {
     display: block;
     padding: 15px 40px;
     color: rgba(255, 255, 255, 1);
+    background: #151515;
 }
 
 #goFullScreen {
@@ -122,7 +123,7 @@ p {
     border: 0;
     font-size: 1.3em;
     display: block;
-    background: black;
+    background: #151515;
     color: rgba(255, 255, 255, 1);
     opacity: 0.4;
 }
@@ -146,7 +147,7 @@ p {
 }
 
 .sidebar #navheading a:hover {
-    color: black;
+    color: #151515;
     -webkit-transition: 1s;
 }
 
@@ -217,7 +218,6 @@ p {
 
 ul li {
     position: relative;
-    display: inline-block;
     width: auto;
     margin: 0;
     padding: 0px 10px 0px 0px;
@@ -226,7 +226,6 @@ ul li {
 
 ul {
     position: relative;
-    display: inline-block;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -380,9 +379,28 @@ input[type=submit]:hover {
     height: 100%;
 }
 
+#imagelinkcontainer {
+    max-width: 200px;
+}
+
 #topnav {
+    display: grid;
     text-align: left;
     font-size: 1em;
+    margin-bottom: 1rem;
+}
+
+.img-thumbnail {
+    max-width: 200px;
+    display: inline-block;
+    border: 0px;
+    padding: 0;
+    /* Set a small width */
+}
+
+.headbox:fullscreen {
+    margin-left: 20rem;
+    margin-right: 20rem;
 }
 
 #topnav:fullscreen {
@@ -394,6 +412,18 @@ input[type=submit]:hover {
     /* Position the navbar at the top of the page */
     width: 100%;
     /* Full width */
+}
+
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
 }
 
 #topnav a {
@@ -409,7 +439,9 @@ input[type=submit]:hover {
     font-size: xx-small;
     bottom: 0;
     width: auto;
-    background-color: black;
+    padding: 0;
+    padding-top: 0;
+    background-color: #151515;
     opacity: 0.1;
     color: rgb(150, 150, 150);
 }
@@ -492,7 +524,8 @@ input[type=submit]:hover {
         z-index: 100;
     }
     .nav {
-        position: fixed;
+        position: absolute;
+        max-height: 70px;
     }
     .sidebar {
         width: 100%;

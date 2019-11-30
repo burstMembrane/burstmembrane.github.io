@@ -1,5 +1,26 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    $(".headbox").scroll(function() {
+        console.log($(".headbox").scrollTop());
+
+        var scroll = $(".headbox").scrollTop();
+
+        if (scroll > 150) {
+
+            $('#navBox').hide();
+
+            $('.headbox').css("top", "0");
+
+        } else {
+            $('#navBox').slideDown();
+            $('.headbox').css("top", "70px");
+        }
+
+    });
+    $("img").wrap('<div class="wrapper"></div>');
 
     var hash = window.location.hash;
     console.log("loaded hash" + hash);
@@ -63,6 +84,14 @@ $(document).ready(function() {
 
 });
 
+$(document).on('click', 'a[href^="#"]', function(event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
 'use strict';
 
 // requestAnimationFrame polyfill by Erik Möller.
@@ -92,6 +121,10 @@ $(document).ready(function() {
         window.cancelAnimationFrame = clearTimeout;
     }
 }());
+
+
+
+
 
 // Background Noise
 var canvas = document.getElementById('canvas'),

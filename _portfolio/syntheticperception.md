@@ -15,17 +15,18 @@ description: Ongoing research project
 ## NOTE: you need to add this div-id to the style css file for hiding and showing of divs to work
 div-id: "syntheticperception"
 
+thumbnailpath: "images/syntheticperception/sp1.jpg"
 ## YEAR
 year: 2019
 
 ## ALL THIS TEXT IS EMBEDDED AS THE BODY CONTENT
 ---
 
-*Synthetic Perception* is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions. 
-
 ![Synthetic Perception](images/syntheticperception/sp1.jpg)
 ### Synthetic Perception: installation view
  
+*Synthetic Perception* is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions. 
+
 As a year long Honours project. I experimented with using computer vision algorithms to fragment and deidentify video data. 
 
 That data was then recomposed and output onto a display medium. These included computer screens, televisions and smartphones. 

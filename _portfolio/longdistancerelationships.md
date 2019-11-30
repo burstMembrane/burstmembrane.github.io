@@ -3,6 +3,7 @@ layout: works
 title: "LONG DISTANCE RELATIONSHIPS (2016)"
 description: "Installed @ Franklin St. Melbourne CBD, 09.10.16"
 div-id: "ldr"
+thumbnailpath: "images/ldr3.jpg"
 year: 2016
 ---
 
