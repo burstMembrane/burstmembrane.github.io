@@ -532,6 +532,7 @@ input[type=submit]:hover {
         position: absolute;
         visibility: visible;
         z-index: 100;
+        background: #151515;
     }
     .nav {
         position: absolute;
