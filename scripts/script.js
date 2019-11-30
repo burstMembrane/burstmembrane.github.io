@@ -20,7 +20,7 @@ $(document).ready(function() {
         }
 
     });
-    $("img").wrap('<div class="wrapper"></div>');
+
 
     var hash = window.location.hash;
     console.log("loaded hash" + hash);
