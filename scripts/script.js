@@ -1,33 +1,40 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
 
-
+    $('a').each(function() {
+        if ($(this).prop('href') == window.location.href) {
+            $(this).addClass('current');
+        }
+    });
 
     // Get the modal
     var modal = document.getElementById('myModal');
 
     $(".headbox").scroll(function() {
 
+        if ($(window).width() < 600) {
 
-        var scroll = $(".headbox").scrollTop();
 
-        if (scroll > 150) {
 
-            $('#navBox').hide();
+            var scroll = $(".headbox").scrollTop();
 
-            $('.headbox').css("top", "0");
+            if (scroll > 150) {
 
-        } else {
-            $('#navBox').slideDown();
-            $('.headbox').css("top", "70px");
+                $('#navBox').hide();
+
+                $('.headbox').css("top", "0");
+
+            } else {
+                $('#navBox').slideDown();
+                $('.headbox').css("top", "70px");
+            }
+            if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
+
+            }
+
+
+
         }
-        if ($(this).scrollTop() + $(this).innerHeight() >= $(this)[0].scrollHeight) {
-            console.log("hit bottom");
-        }
-
-
-
-
     });
 
 
@@ -152,7 +159,7 @@ function noise(ctx) {
         i = 0;
 
     for (; i < len; i++)
-        if (Math.random() < 0.91) buffer32[i] = 0xff000000;
+        if (Math.random() < 0.95) buffer32[i] = 0xff000000;
 
 
     ctx.putImageData(idata, 0, 0);
