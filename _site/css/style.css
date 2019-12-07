@@ -5,6 +5,9 @@ h1 {
 }
 
 html {
+    background-color: black;
+    --main-background-color: #151515;
+    --main-foreground-color: rgb(233, 233, 233);
     z-index: -999999;
     width: 100%;
     height: 100%;
@@ -75,7 +78,7 @@ a:hover {
 }
 
 .sidebar {
-    background-color: #151515;
+    background-color: var(--main-background-color);
     overflow: scroll;
     position: relative;
     float: left;
@@ -90,7 +93,7 @@ a:hover {
 /* Style the links inside the navigation bar */
 
 .navbar {
-    background-color: black;
+    background-color: var(--main-background-color);
     position: absolute;
     width: 100%;
     float: left;
@@ -109,7 +112,7 @@ p {
     display: block;
     padding: 15px 40px;
     color: rgba(255, 255, 255, 1);
-    background: #151515;
+    background: var(--main-background-color);
 }
 
 #goFullScreen {
@@ -123,7 +126,7 @@ p {
     border: 0;
     font-size: 1.3em;
     display: block;
-    background: #151515;
+    background-color: var(--main-background-color);
     color: rgba(255, 255, 255, 1);
     opacity: 0.4;
 }
@@ -147,7 +150,7 @@ p {
 }
 
 .sidebar #navheading a:hover {
-    color: #151515;
+    color: var(--main-background-color);
     -webkit-transition: 1s;
 }
 
@@ -183,7 +186,7 @@ p {
         width: 75%;
         height: auto;
         left: 200px;
-        background-color: #151515;
+        background-color: var(--main-background-color);
         margin: 50px 3%;
         padding: 20px 50px 50px 50px;
         max-height: 1000px;
@@ -197,7 +200,7 @@ p {
     top: 0%;
     height: auto;
     left: 200px;
-    background-color: #151515;
+    background-color: var(--main-background-color);
     margin: 50px 3%;
     padding: 20px 50px 50px 50px;
     max-height: 1000px;
@@ -207,7 +210,7 @@ p {
 .textbox {
     padding: 0;
     margin: 0 auto;
-    background-color: #151515;
+    background-color: var(--main-background-color);
 }
 
 .audioplayer {
@@ -240,7 +243,7 @@ ul {
 
 .anchorLink:hover {
     background: whitesmoke !important;
-    color: #151515 !important;
+    color: var(--main-background-color) !important;
     text-decoration: none !important;
 }
 
@@ -255,7 +258,7 @@ body {
     font-size: normal;
     line-height: 1.7;
     align-content: center;
-    color: #fff;
+    color: var(--main-foreground-color);
     padding-bottom: 20px;
     overflow-anchor: [auto | none];
 }
@@ -458,7 +461,7 @@ input[type=submit]:hover {
     width: auto;
     padding: 0;
     padding-top: 0;
-    background-color: #151515;
+    background-color: var(--main-background-color);
     opacity: 0.1;
     color: rgb(150, 150, 150);
 }
@@ -539,7 +542,7 @@ input[type=submit]:hover {
         position: absolute;
         visibility: visible;
         z-index: 100;
-        background: #151515;
+        background: var(--main-background-color);
     }
     .nav {
         position: absolute;
@@ -625,7 +628,7 @@ input[type=submit]:hover {
         width: 100%;
         text-align: left;
         padding: 0px;
-        background-color: #151515;
+        background-color: var(--main-background-color);
     }
     .navbar {
         visibility: visible;

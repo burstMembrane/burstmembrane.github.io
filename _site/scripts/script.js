@@ -1,9 +1,17 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
+    // IF WE'RE ON THE WRITING PAGE ADD A READING BAR
+    if (window.location.pathname == '/writing.html') {
+
+        $(".headbox").readingbar({
+
+        });
+
+    }
 
     $('a').each(function() {
         if ($(this).prop('href') == window.location.href) {
-            $(this).addClass('current');
+            $(this).addClass('active');
         }
     });
 
@@ -159,7 +167,7 @@ function noise(ctx) {
         i = 0;
 
     for (; i < len; i++)
-        if (Math.random() < 0.95) buffer32[i] = 0xff000000;
+        if (Math.random() < 0.91) buffer32[i] = 0xff000000;
 
 
     ctx.putImageData(idata, 0, 0);
