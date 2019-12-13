@@ -5,7 +5,6 @@ h1 {
 }
 
 html {
-    background-color: black;
     --main-background-color: #151515;
     --main-foreground-color: rgb(233, 233, 233);
     z-index: -999999;

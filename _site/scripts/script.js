@@ -1,11 +1,16 @@
 // JQUERY TO MAKE ANCHOR LINKS WORK ON WORKS PAGE
 $(document).ready(function() {
+
     // IF WE'RE ON THE WRITING PAGE ADD A READING BAR
     if (window.location.pathname == '/writing.html') {
 
-        $(".headbox").readingbar({
 
-        });
+
+    }
+    // SETUP RANDOM DIV HTML ON INDEX
+    if (window.location.pathname == '/') {
+
+        randomExperiment();
 
     }
 
