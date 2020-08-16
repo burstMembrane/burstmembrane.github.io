@@ -6,7 +6,9 @@ div-id: "degradation"
 thumbnailpath: "images/degradation.jpg"
 year: 2017
 --- 
-{% vimeo 223078450 %}
+<div class='video-container'><iframe width="640" height="360" src="https://player.vimeo.com/video/223078450?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
 
 ### Video: Graceful Degradation
 

@@ -7,7 +7,10 @@ thumbnailpath: "images/extraction.jpg"
 year: 2019
 ---
 
-{% vimeo 356342544 %}
+
+<div class='video-container'><iframe width="640" height="360" src="https://player.vimeo.com/video/356342544?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
 
 ### Extraction (2019)
 

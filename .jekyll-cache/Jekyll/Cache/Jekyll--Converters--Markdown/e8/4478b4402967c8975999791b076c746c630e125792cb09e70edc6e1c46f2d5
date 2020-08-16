@@ -1,0 +1,38 @@
+I"f
+<p><img src="images/syntheticperception/sp1.jpg" alt="Synthetic Perception" /></p>
+<h3 id="synthetic-perception-installation-view">Synthetic Perception: installation view</h3>
+
+<p><em>Synthetic Perception</em> is an ongoing research project into the behavioural effects of digital surveillance culture on everyday social interactions.</p>
+
+<p>As a year long Honours project. I experimented with using computer vision algorithms to fragment and deidentify video data.</p>
+
+<p>That data was then recomposed and output onto a display medium. These included computer screens, televisions and smartphones.</p>
+
+<p><img src="images/syntheticperception/sp2.jpg" alt="Synthetic Perception 2" /></p>
+<h3 id="synthetic-perception-installation-view-1">Synthetic Perception: installation view</h3>
+
+<p>I attempted to make an algorithm that was content agnostic and extendable. This means it would not (contrary to the implicit hierarchies of human perception) have a bias toward a certain kind of content seen within data, treating it natively in its own way.</p>
+
+<p><img src="images/syntheticperception/sp3.jpg" alt="Synthetic Perception 2" /></p>
+<h3 id="synthetic-perception-extraction-network-app">Synthetic Perception: Extraction Network App</h3>
+
+<p>I settled upon a recomposing on a grid to fracture the dataset by removing any spatial context from the elements that the algorithm picked. Essentially, the code would not <em>care</em> if it could not pick out any comprehensible details within the data that it processed.</p>
+
+<p>The video data processed have varied throughout the course of this project. I have used both self-generated and online videos chosen by web scraping and data-extracting algorithms.</p>
+
+<p>For a more comprehensive look at the research and practice which surrounds this project, feel free to read my Honours Thesis accessible <a href="http://liamfpower.com/writing.html">here</a>.</p>
+
+<p><img src="images/syntheticperception/sm4.png" alt="sm4" /></p>
+<h3 id="video-still-synthetic-perception">Video still: Synthetic Perception</h3>
+
+<hr />
+
+<div class="video-container"><iframe width="640" height="360" src="https://player.vimeo.com/video/337671934?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+
+<h3 id="video-networked-mediation-2019">Video: Networked Mediation (2019)</h3>
+
+<div class="video-container"><iframe width="640" height="360" src="https://youtube.com/embed/0HfZjL95RfU" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+
+<h3 id="archived-livestream-2018">Archived Livestream: 2018</h3>
+
+:ET

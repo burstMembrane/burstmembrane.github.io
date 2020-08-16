@@ -55,13 +55,15 @@ For a more comprehensive look at the research and practice which surrounds this 
 
 ___
 
-{% vimeo 337671934 %}
+<div class='video-container'><iframe width="640" height="360" src="https://player.vimeo.com/video/337671934?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
 
 
 ### Video: Networked Mediation (2019)
 
+<div class='video-container'><iframe width="640" height="360" src="https://youtube.com/embed/0HfZjL95RfU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
-{% youtube 0HfZjL95RfU %}
+
 
 
 ### Archived Livestream: 2018
