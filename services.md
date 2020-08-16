@@ -10,14 +10,20 @@ As well as pursuing my arts practice I work as a freelance collaborator on a var
 
 #### Oompah! @ Artplay (2018)
 
-{% youtube sQamogAeVo0 %}
+
+<div class='video-container'><iframe width="640" height="360" src="https://youtube.com/embed/sQamogAeVo0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
 
 
 **Role:** Interaction design, programming, sound design, composition. 
 
 #### Great Movements of Feeling @ Gertrude Contemporary (2018)
 
-{% vimeo 288865428 %}
+
+<div class='video-container'><iframe width="640" height="360" src="https://player.vimeo.com/video/288865428?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+
 
 
 Work: Helen Grogan, *splitting open the surface on which it is inscribed*, 2018
